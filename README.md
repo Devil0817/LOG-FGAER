@@ -42,7 +42,7 @@ export PYTHONPATH=$PWD:$PYTHONPATH
 the `--data_dir` option in the following section assumes a directory tree like this:
 
 ```shell
-soft_label_data/dialogue
+soft_label/data/dialogue
 ├── dev
 │   └── 1
 ├── test
