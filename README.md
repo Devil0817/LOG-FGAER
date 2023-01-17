@@ -38,6 +38,7 @@ export PYTHONPATH=$PWD:$PYTHONPATH
 
 ##### 3. 数据集 datasets
 数据目录整理成以下格式，方便后续使用（通过`--data_dir`参数将数据路径传入训练脚本）；
+
 the `--data_dir` option in the following section assumes a directory tree like this:
 
 ```shell
