@@ -52,7 +52,7 @@ soft_logic/data/dialogue
     └── 1
 ```
 	
-构建数据集Dialogue-AER存放在./soft_label/data/dialogue中，真实下游数据集存放在./soft_label/data/cucc中
+构建数据集Dialogue-AER存放在./soft_logic/data/dialogue中，真实下游数据集存放在./soft_logic/data/cucc中
 
 #####  4. 环境 environment
 需要配置环境在requirements.txt中 pip install -r requirements.txt进行安装
