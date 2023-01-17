@@ -3,20 +3,20 @@ a logic-guided fine-grained address recognition method (Log-FGAER), where we for
 
 READ ME
 
-# 导航
+# 导航 Table of contents
 
 * [安装](#安装)
 * [NER任务](#soft logic模型及其他基线模型)
 
 
 
-# 安装
+# 安装 Setup
 
-##### 1. 安装 PaddlePaddle
+##### 1. 安装PaddlePaddle install PaddlePaddle 
 
 本项目依赖PaddlePaddle 1.7.0+， 请参考[这里](https://www.paddlepaddle.org.cn/install/quick)安装 PaddlePaddle。
 
-##### 2. 安装 ERNIE 套件
+##### 2. 安装ERNIE套件 install ernie
 
 
 ```script
@@ -36,8 +36,9 @@ pip install -e .
 export PYTHONPATH=$PWD:$PYTHONPATH
 ```
 
-##### 3. 数据集
+##### 3. 数据集 datasets
 数据目录整理成以下格式，方便后续使用（通过`--data_dir`参数将数据路径传入训练脚本）；
+the `--data_dir` option in the following section assumes a directory tree like this:
 
 ```shell
 data/dialogue
@@ -51,10 +52,10 @@ data/dialogue
 	
 构建数据集Dialogue-AER存放在./soft_label/data/dialogue中，真实下游数据集存放在./soft_label/data/cucc中
 
-#####  4. 环境
+#####  4. 环境 environment
 需要配置环境在requirements.txt中 pip install -r requirements.txt进行安装
 
-# NER任务
+# NER任务 Run task
 
 ##### dialogue_crf_sl.py #soft logic模型, soft_label目录下 
 运行： python3 dialogue_crf_sl.py \
@@ -70,7 +71,7 @@ data/dialogue
 运行日志保存在./log中
 
 
-# 文献引用
+# 文献引用 Reference
 
 ##### ERNIE 1.0
 ```
