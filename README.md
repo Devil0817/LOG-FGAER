@@ -59,8 +59,8 @@ data/dialogue
 运行： python3 dialogue_crf_sl.py \
        --from_pretrained ernie-1.0 \
        --data_dir ./data/dialogue
-	   --max_steps #set this to EPOCH * NUM_SAMPLES / BATCH_SIZE \
-	   --save_dir ./save
+       --max_steps #set this to EPOCH * NUM_SAMPLES / BATCH_SIZE \
+       --save_dir ./save
 	   
 #### dialogue_bilstm_crf.py #baseline ERNIE-BiLSTM-CRF模型, soft_label目录下 
 #### dialogue_crf.py #baseline ERNIE-CRF模型, soft_label目录下 
@@ -71,7 +71,7 @@ data/dialogue
 
 # 文献引用
 
-### ERNIE 1.0
+##### ERNIE 1.0
 ```
 @article{sun2019ernie,
   title={Ernie: Enhanced representation through knowledge integration},
