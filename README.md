@@ -54,6 +54,10 @@ soft_logic/data/dialogue
 	
 构建数据集Dialogue-AER存放在./soft_logic/data/dialogue中，真实下游数据集存放在./soft_logic/data/cucc中
 
+数据示例如下：
+![7d5fa839bef0ee46f87efb5e3995aac](https://user-images.githubusercontent.com/44054130/212827608-f55f87b6-d68e-4e3c-a95e-ed9d779ff885.png)
+
+
 #####  4. 环境 environment
 需要配置环境在requirements.txt中 pip install -r requirements.txt进行安装
 
