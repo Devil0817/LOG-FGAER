@@ -43,7 +43,7 @@ export PYTHONPATH=$PWD:$PYTHONPATH
 the `--data_dir` option in the following section assumes a directory tree like this:
 
 ```shell
-soft_label/data/dialogue
+soft_logic/data/dialogue
 ├── dev
 │   └── 1
 ├── test
@@ -59,16 +59,16 @@ soft_label/data/dialogue
 
 # NER任务 Run task
 
-##### dialogue_crf_sl.py #soft logic模型, soft_label目录下 
+##### dialogue_crf_sl.py #soft logic模型, soft_logic目录下 
 运行： python3 dialogue_crf_sl.py \
               --from_pretrained ernie-1.0 \
               --data_dir ./data/dialogue \
               --max_steps #set this to EPOCH * NUM_SAMPLES / BATCH_SIZE \
               --save_dir ./save
 	   
-##### dialogue_bilstm_crf.py #baseline ERNIE-BiLSTM-CRF模型, soft_label目录下 
-##### dialogue_crf.py #baseline ERNIE-CRF模型, soft_label目录下 
-##### dialogue.py #baseline ERNIE模型, soft_label目录下
+##### dialogue_bilstm_crf.py #baseline ERNIE-BiLSTM-CRF模型, soft_logic目录下 
+##### dialogue_crf.py #baseline ERNIE-CRF模型, soft_logic目录下 
+##### dialogue.py #baseline ERNIE模型, soft_logic目录下
 
 运行日志保存在./log中
 
