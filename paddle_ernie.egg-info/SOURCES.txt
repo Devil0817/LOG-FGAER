@@ -1,0 +1,15 @@
+README.md
+setup.py
+ernie/__init__.py
+ernie/file_utils.py
+ernie/modeling_ernie.py
+ernie/modeling_ernie_crf.py
+ernie/modeling_ernie_crf_paddle.py
+ernie/modeling_ernie_sl.py
+ernie/modeling_ernie_softmax.py
+ernie/tokenizing_ernie.py
+paddle_ernie.egg-info/PKG-INFO
+paddle_ernie.egg-info/SOURCES.txt
+paddle_ernie.egg-info/dependency_links.txt
+paddle_ernie.egg-info/requires.txt
+paddle_ernie.egg-info/top_level.txt
